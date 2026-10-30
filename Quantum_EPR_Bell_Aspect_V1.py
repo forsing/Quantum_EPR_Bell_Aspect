@@ -81,10 +81,11 @@ from qiskit.quantum_info import Operator, Pauli, Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
+
 
 NUMBER_COUNT = 39
 DRAW_SIZE = 7
@@ -3234,7 +3235,7 @@ DIJAGNOSTIKA: Na odvojenom testu zajedničke parne korelacije nisu poboljšale N
 ZAVRŠNA TRI NEXT REZULTATA
 
 loto7_4710_k86.csv
-NEXT: 02 03 08 23 26 32 34
+NEXT: 02 x 08 y 26 z 34
 Validacioni NLL: 16.587847703
 Odvojeni test NLL: 16.591897199
 Test NLL posle uklanjanja unutrašnjih parnih korelacija: 16.563769237
@@ -3251,7 +3252,7 @@ Gradijentni uslov: dostignut
 DIJAGNOSTIKA: Na odvojenom testu zajedničke parne korelacije nisu poboljšale NLL u odnosu na kontrolu sa istim uključenim marginalnim verovatnoćama blokova.
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 08 13 22 23 32 36 39
+NEXT: 08 x 22 y 32 z 39
 Validacioni NLL: 16.605588903
 Odvojeni test NLL: 16.610914985
 Test NLL posle uklanjanja unutrašnjih parnih korelacija: 16.581915633
@@ -3268,7 +3269,7 @@ Gradijentni uslov: dostignut
 DIJAGNOSTIKA: Na odvojenom testu zajedničke parne korelacije nisu poboljšale NLL u odnosu na kontrolu sa istim uključenim marginalnim verovatnoćama blokova.
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 02 03 04 08 10 18 23
+NEXT: 02 x 04 y 10 z 23
 Validacioni NLL: 16.636274849
 Odvojeni test NLL: 16.639824089
 Test NLL posle uklanjanja unutrašnjih parnih korelacija: 16.575834521
